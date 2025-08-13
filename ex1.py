@@ -1,2 +1,2 @@
 import streamlit as st 
-st.title('나는 ufo 진이다')
+st.title('나는 알로사우루스다')
