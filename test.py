@@ -184,7 +184,7 @@ if st.session_state.play:
     import time
     time.sleep(play_speed/1000.0)
     st.session_state.frame = (frame + 50) % (max_frame+1)
-    st.experimental_rerun()
+    st.rerun()
 
 frame = st.session_state.get("frame", 0)
 snap = DF[DF["year"] == frame]
